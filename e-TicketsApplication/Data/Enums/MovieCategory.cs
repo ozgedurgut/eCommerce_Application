@@ -10,6 +10,8 @@ namespace e_TicketsApplication.Data
         Action = 1,
         Comedy,
         Drama,
-        Documentary
+        Documentary,
+        Cartoon,
+        Horror
     }
 }
