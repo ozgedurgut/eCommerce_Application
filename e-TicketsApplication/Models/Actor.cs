@@ -10,10 +10,12 @@ namespace e_TicketsApplication.Models
     {
         [Key]
         public int Id { get; set; }
-        public string ProfilePictureURL { get; set; }
 
+        [Display(Name = "Profile Picture URL")]
+        public string ProfilePictureURL { get; set; }
+        [Display(Name = "Full Name")]
         public string Fullname { get; set; }
-        public string FullName { get; internal set; }
+        [Display(Name = "Biography")]
         public string Bio { get; set; }
 
         //Relationships
