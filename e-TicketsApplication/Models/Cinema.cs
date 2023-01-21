@@ -17,5 +17,8 @@ namespace e_TicketsApplication.Models
 
         public string Description { get; set; }
 
+        //Relationships
+        public List<Movie> Movies { get; set; }
+
     }
 }
