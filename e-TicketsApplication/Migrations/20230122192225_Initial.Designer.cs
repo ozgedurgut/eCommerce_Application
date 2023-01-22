@@ -10,7 +10,7 @@ using e_TicketsApplication.Data;
 namespace e_TicketsApplication.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230121113732_Initial")]
+    [Migration("20230122192225_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

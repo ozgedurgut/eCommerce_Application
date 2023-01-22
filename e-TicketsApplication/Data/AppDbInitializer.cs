@@ -64,32 +64,32 @@ namespace e_TicketsApplication.Data
                     {
                         new Actor()
                         {
-                            FullName = "Actor 1",
+                            Fullname = "Actor 1",
                             Bio = "This is the Bio of the first actor",
                             ProfilePictureURL = "http://dotnethow.net/images/actors/actor-1.jpeg"
 
                         },
                         new Actor()
                         {
-                            FullName = "Actor 2",
+                            Fullname = "Actor 2",
                             Bio = "This is the Bio of the second actor",
                             ProfilePictureURL = "http://dotnethow.net/images/actors/actor-2.jpeg"
                         },
                         new Actor()
                         {
-                            FullName = "Actor 3",
+                            Fullname = "Actor 3",
                             Bio = "This is the Bio of the 3. actor",
                             ProfilePictureURL = "http://dotnethow.net/images/actors/actor-3.jpeg"
                         },
                         new Actor()
                         {
-                            FullName = "Actor 4",
+                            Fullname = "Actor 4",
                             Bio = "This is the Bio of the 4. actor",
                             ProfilePictureURL = "http://dotnethow.net/images/actors/actor-4.jpeg"
                         },
                         new Actor()
                         {
-                            FullName = "Actor 5",
+                            Fullname = "Actor 5",
                             Bio = "This is the Bio of the 5. actor",
                             ProfilePictureURL = "http://dotnethow.net/images/actors/actor-5.jpeg"
                         }
@@ -103,32 +103,32 @@ namespace e_TicketsApplication.Data
                     {
                         new Producer()
                         {
-                            FullName = "Producer 1",
+                            Fullname = "Producer 1",
                             Bio = "This is the Bio of the first actor",
                             ProfilePictureURL = "http://dotnethow.net/images/producers/producer-1.jpeg"
 
                         },
                         new Producer()
                         {
-                            FullName = "Producer 2",
+                            Fullname = "Producer 2",
                             Bio = "This is the Bio of the second actor",
                             ProfilePictureURL = "http://dotnethow.net/images/producers/producer-2.jpeg"
                         },
                         new Producer()
                         {
-                            FullName = "Producer 3",
+                            Fullname = "Producer 3",
                             Bio = "This is the Bio of the 3. actor",
                             ProfilePictureURL = "http://dotnethow.net/images/producers/producer-3.jpeg"
                         },
                         new Producer()
                         {
-                            FullName = "Producer 4",
+                            Fullname = "Producer 4",
                             Bio = "This is the Bio of the 4. actor",
                             ProfilePictureURL = "http://dotnethow.net/images/producers/producer-4.jpeg"
                         },
                         new Producer()
                         {
-                            FullName = "Producer 5",
+                            Fullname = "Producer 5",
                             Bio = "This is the Bio of the 5. actor",
                             ProfilePictureURL = "http://dotnethow.net/images/producers/producer-5.jpeg"
                         }
