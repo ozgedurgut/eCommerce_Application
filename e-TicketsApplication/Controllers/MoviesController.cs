@@ -18,7 +18,7 @@ namespace e_TicketsApplication.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Movies.ToListAsync());
+            return View(await _context.Movies.Include(n => n.Cinema).OrderBy(n => n.Name).ToListAsync());
             
         }
     }
