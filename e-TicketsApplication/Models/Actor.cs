@@ -23,6 +23,17 @@ namespace e_TicketsApplication.Models
         [Required(ErrorMessage = "Biography is required")]
         [Display(Name = "Biography")]
         public string Bio { get; set; }
+        public string ShortBio
+        {
+            get
+            {
+                if (Bio.Length <= 7)
+                {
+                    return Bio;
+                }
+                return Bio.Substring(0, 7) + "...";
+            }
+        }
 
         //Relationships
         public List<Actor_Movie> Actor_Movies { get; set; }

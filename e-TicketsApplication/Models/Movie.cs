@@ -14,6 +14,17 @@ namespace e_TicketsApplication.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public string ShortDescription
+        {
+            get
+            {
+                if (Description.Length <=100)
+                {
+                    return Description;
+                }
+                return Description.Substring(0, 100) + "...";
+            }
+        }
         public double Price { get; set; }
         public string ImageURL { get; set; }
         public DateTime StartDate { get; set; }

@@ -6534,17 +6534,17 @@ button.bg-secondary:focus {
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
-  background-color: #1e7e34 !important;
+    background-color: #A569BD !important;
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+    background-color: #A569BD !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #117a8b !important;
+    background-color: #A569BD !important;
 }
 
 .bg-warning {
