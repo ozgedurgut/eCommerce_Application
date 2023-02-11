@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace e_TicketsApplication.Data.Services
 {
+
     public class ActorsService : IActorsService
     {
         private readonly AppDbContext _context;
@@ -28,21 +29,6 @@ namespace e_TicketsApplication.Data.Services
             await _context.SaveChangesAsync();
 
         }
-
-     
-
-        public async Task<IEnumerable<Actor>> GetAllAsync()
-        {
-            var result = await _context.Actors.ToListAsync();
-            return result;
-        }
-
-        public async Task<Actor> GetByIdAsync(int id)
-        {
-            var result = await _context.Actors.FirstOrDefaultAsync(n => n.Id == id);
-            return result;
-        }
-
         public async Task<Actor> UpdateAsync(int id, Actor newActor)
         {
             _context.Update(newActor);

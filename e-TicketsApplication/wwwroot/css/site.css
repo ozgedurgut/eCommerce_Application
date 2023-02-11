@@ -6,6 +6,9 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
+.navbar {
+    background-color: #00636a !important;
+}
 
 /* Provide sufficient contrast against white background */
 a {
@@ -13,15 +16,18 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fc0479;
+    background-color: #d60366;
+    border-color: #d60366;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+body {
+    background-color: #cee0e2;
 }
 
 /* Sticky footer styles
